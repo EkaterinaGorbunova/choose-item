@@ -89,7 +89,7 @@ function App() {
                 setChosenCupcake('');
                 setChosenCocktail('');
               }}
-              className='relative inline-flex items-center justify-center px-6 py-2 md:px-8 md:py-2 text-sm md:text-lg font-bold text-white transition-all duration-200 bg-gray-900 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 uppercase'
+              className='relative inline-flex items-center justify-center px-6 py-2 md:px-8 md:py-2 text-sm md:text-lg font-bold text-white transition-all duration-200 bg-gray-900 font-pj rounded-xl focus:outline-none focus:ring-0 uppercase'
             >
               Reset
             </button>
