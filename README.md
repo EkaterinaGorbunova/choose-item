@@ -2,7 +2,7 @@
 
 This project was created with [React](https://github.com/facebook/create-react-app) + [Tailwind CSS](https://tailwindcss.com/docs/guides/create-react-app) + [Vercel](https://vercel.com/docs).
 
-## Demo [Click here](https://choose-item.vercel.app)
+## [Demo](https://choose-item.vercel.app)
 
 ## Simple Logic
 1. User can select one itme of the same category together (1 cupcake and 1 cocktail) but at the same time user cannot select several cupcakes or several cocktails.
