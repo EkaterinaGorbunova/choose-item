@@ -80,7 +80,7 @@ function App() {
           Choose one item from each category
         </h3>
         <div className='py-6 flex justify-center w-full'>
-          <div className='relative inline-flex group'>
+          {/* <div className='relative inline-flex group'>
             <div className='absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt'></div>
             <a
               href="#_"
@@ -94,7 +94,20 @@ function App() {
             >
               Reset
             </a>
-          </div>
+          </div> */}
+          <button
+            type='button'
+            aria-label='reset button'
+            onClick={() => {
+              setChosenCupcake('');
+              setChosenCocktail('');
+            }}
+            className='relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800'
+          >
+            <span className='relative px-6 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 uppercase'>
+              Reset
+            </span>
+          </button>
         </div>
         <div className='grid grid-cols-3 gap-4 pb-4 mx-auto md:grid-cols-3'>
           {typeValues.map((typeValue) =>
