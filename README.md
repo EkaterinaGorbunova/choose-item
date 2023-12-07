@@ -10,4 +10,4 @@ This project was created with [React](https://github.com/facebook/create-react-a
 3. All items are organized into arrays based on their types - cupcakes and cocktails, so all cupcakes are displayed first, and then - all cocktails.
 
 ## Preview
-![Preview Image](https://github.com/EkaterinaGorbunova/choose-item-/blob/main/public/img/preview.png?raw=true)
+![Preview Image](https://github.com/EkaterinaGorbunova/choose-item/blob/main/public/img/preview.png?raw=true)
