@@ -76,25 +76,10 @@ function App() {
   return (
     <div className='flex items-center justify-center h-screen bg-gray-900'>
       <div className='max-w-md p-4 overflow-hidden rounded'>
-        <h3 className='text-center text-gray-200 text-base md:text-2xl'>
+        <h3 className='text-center text-gray-200 text-lg md:text-2xl'>
           Choose one item from each category
         </h3>
         <div className='py-6 flex justify-center w-full'>
-          {/* <div className='relative inline-flex group'>
-            <div className='absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt'></div>
-            <a
-              href="#_"
-              role='button'
-              aria-label='reset button'
-              onClick={() => {
-                setChosenCupcake('');
-                setChosenCocktail('');
-              }}
-              className='relative inline-flex items-center justify-center px-6 py-2 md:px-8 md:py-2 text-sm md:text-lg font-bold text-white transition-all duration-200 bg-gray-900 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 uppercase'
-            >
-              Reset
-            </a>
-          </div> */}
           <button
             type='button'
             aria-label='reset button'
